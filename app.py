@@ -3,7 +3,8 @@ import streamlit as st
 from dotenv import load_dotenv
 # from langchain.chat_models import ChatOpenAI
 from langchain_openai import ChatOpenAI
-from langchain.schema import SystemMessage, HumanMessage
+# from langchain.schema import SystemMessage, HumanMessage
+from langchain_core.messages import SystemMessage, HumanMessage
 
 # 環境変数の読み込み
 load_dotenv()
